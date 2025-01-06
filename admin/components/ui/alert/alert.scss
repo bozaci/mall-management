@@ -1,0 +1,33 @@
+//
+// Alert
+//
+
+.alert {
+  padding: 10px 15px;
+  border-radius: 8px;
+  background-color: #000;
+
+  &--theme-error {
+    background-color: #ff33331a;
+  }
+
+  &--theme-error &__text {
+    color: #ff3333;
+  }
+
+  &--theme-success {
+    background-color: #48ea481a;
+  }
+
+  &--theme-success &__text {
+    color: #48ea48;
+  }
+
+  &__text {
+    margin: 0;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 24px;
+    color: #fff;
+  }
+}
